@@ -11,8 +11,6 @@ class UserSerializer(serializers.ModelSerializer):
             'email', 
             'name', 
             'user_posts',
-            'password',
-            'token',
         )
 
 class PostSerializer(serializers.ModelSerializer):
